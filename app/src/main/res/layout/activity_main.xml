@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ededed"
+    android:background="@drawable/gachi"
     tools:context=".MainActivity">
 
     <Button
@@ -157,6 +157,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:background="#8F1C1C"
+        android:backgroundTint="#BC4242"
         android:text="2"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintStart_toStartOf="@+id/button3" />
@@ -166,10 +168,10 @@
         android:layout_width="291dp"
         android:layout_height="51dp"
         android:layout_marginBottom="56dp"
+        android:background="#875456"
         android:text="1234567890.9876"
-        android:background="#98928b"
-        android:textSize="30sp"
         android:textColor="@color/black"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button27"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
